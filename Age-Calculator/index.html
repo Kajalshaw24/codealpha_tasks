@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="flexrow-container">
+      <div class="standard-theme theme-selector" data-theme="standard" aria-label="Standard Theme"></div>
+      <div class="light-theme theme-selector" data-theme="light" aria-label="Light Theme"></div>
+      <div class="darker-theme theme-selector" data-theme="darker" aria-label="Darker Theme"></div>
+    </div>
+    <h1 id="title">Calculate Your Age</h1>
+    <div id="border"></div>
+
+  </div>
+
+  <div class="container">
+    <div class="form">
+      <p id="birth">Enter your date of birth</p>
+      <input type="date" id="birthday" name="birthday">
+      <button id="btn">Calculate Age</button>
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
